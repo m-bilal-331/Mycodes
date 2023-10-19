@@ -1,11 +1,5 @@
-class Circle {
-    constructor(radius){
-        this.radius = radius;
-    }
+import { Circle } from "./circle.js";
 
-    draw() {
-        console.log('draw method');
-    }
-}
+const c = new Circle(10);
 
-const c = new Circle(1);
+c.draw();
